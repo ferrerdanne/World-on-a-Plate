@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> World on a Plate - Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .gallery-item h3 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .gallery-item p {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        OUR RECIPES, YOUR INBOX.
+    </div>
+
+    <header class="header">
+        <h1> World <em> on a </em> Plate </h1>
+        <nav class="nav">
+            <a href="index.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="recipes.html">RECIPES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="start.html">START HERE</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <h2> Top 10 Famous Dishes in the Philippines</h2>
+        <p>Take a look at some of the most popular recipes and get inspired to cook!</p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="porkadobo1.jpg" alt="Pork Adobo">
+                <h3> Pork Adobo </h3>
+                <p>It won’t be easy to find someone who does not enjoy the classic Pork Adobo! Considered by some as the pride of Filipino cuisine, Pork Adobo is definitely a favorite among many around the world.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="sinigang1.jpg" alt="Sinigang">
+                <h3> Sinigang </h3>
+                <p> Sinigang is a Filipino native, through and through. Its name, sinigang, originates from the Tagalog verb, sigang, that directly translates to “to stew”. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="karekare1.jpg" alt="Kare-kare">
+                <h3> Kare-kare</h3>
+                <p>Kare Kare is a type of Filipino stew with a rich and thick peanut sauce. It is a popular dish in the Philippines served during special occasions. Palayok or clay pot is used to cook this dish. It also functions as the serving bowl at the same time. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="tinola1.jpg" alt="Tinola">
+                <h3> Tinola </h3>
+                <p>Tinola is traditionally cooked with wedges of unripe papaya and malunggay leaves. These components makes it a good source of nutrients. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="sisig1.jpg" alt="Sisig">
+                <h3> Sisig </h3></h3>
+                <p>A filipino dish made from pork jowl and ears (maskara), porky belly and chicken liver. The name derives from the old tagalog word ‘sisigan’, which means “to make sour” </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="lechonkawali1.jpg" alt="Lechon Kawali">
+                <h3> Lechon Kawali </h3>
+                <p> Lechon Kawali, one of the popular Filipino dishes, consisting of a whole roasted pig. This is usually served at celebrations or special occasions. </p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="bicolexpress1.jpg" alt="Bicol Express">
+                <h3> Bicol Express </h3>
+                <p> Bicol Express is a popular Filipino stew known for its spicy and savory flavor, featuring ingredients like pork, chilies, coconut milk, and shrimp paste. It's a dish with a rich history, originating from the Bicol region and named after the Bicol Express railway train. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="bulalo1.jpg" alt="Bulalo">
+                <h3> Bulalo </h3>
+                <p> It’s a well known fact that Filipinos love stew and soup dishes. From the sour sinigang to the sweet tinola, there’s guaranteed to be a soup dish for every flavor palate preference –– all great to sip and enjoy, especially during long, cool nights. But one of the most popular, and arguably most delicious, soups out there, is the classic Bulalo, or beef shank stew. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="dinuguan1.jpg" alt="Dinuguan">
+                <h3> Dinuguan </h3>
+                <p> Dinuguan, also known as chocolate meat, is a savory dish made with diced pork, pork blood, and spices. This classic Filipino pork stew is hearty, boldly flavored, and delicious as a main meal with steamed rice or a midday snack with puto. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="kaldereta1.jpg" alt="Kaldereta">
+                <h3> Kaldereta </h3>
+                <p> Another favorite Filipino dish is the Kaldereta. It is a hearty meat dish using chevon (goat meat), beef, or pork combined with potatoes, carrots, tomato sauce, and liver spread or liver paste. This is a popular dish served during special occasions and a regular in every Filipino cookbook. </p>
+            </div>
+        </div>
+
+    </section>
+    
+      <section class="content-section">
+        <h2> Top 10 Famous Dishes in Southeast Asia </h2>
+        <p>Take a look at some of the most popular recipes and get inspired to cook!</p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="fishcurry.jpg" alt="Burmese Fish Curry">
+                <h3> Burmese Fish Curry </h3>
+                <p>It's known for its rich, savory taste, often incorporating ingredients like tamarind, fish sauce, and a paste of pounded onions, garlic, and chilies. The dish is characterized by the "oil-returning" effect, where the fish is cooked until the liquid reduces and a layer of oil forms on top.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="chilicrab.jpg" alt="Chili Crab">
+                <h3> Chili Crab </h3>
+                <p> A dish made up of stir-fried crabs cooked in a thick, savoury chilli sauce varying in levels of sweetness and spiciness, typically served with small mantou buns (fried or steamed Chinese buns). It's a popular dish known for its messy, yet delightful, hand-on eating experience. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="mohinga.jpg" alt="Mohinga">
+                <h3> Mohinga</h3>
+                <p> It's often considered the national dish of Myanmar and is a popular breakfast option, though it can be enjoyed any time of day. The broth is typically made with catfish and flavored with lemongrass, turmeric, ginger, garlic, and fish sauce. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="tomyum.jpg" alt="Tom Yum">
+                <h3> Tom Yum </h3>
+                <p> Is a type of Thai hot and sour soup where the iconic flavours come from 3 herbs: lemongrass, galangal, and makrut (kaffir) lime leaves. I call these herbs the "tom yum trinity." It can be made with any meat or seafood, even leftover cooked meats, but the most popular version is made with shrimp, i.e. tom yum goong ต้มยำกุ้ง (goong means shrimp). </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="gadogado.jpg" alt="Gado-Gado">
+                <h3> Gado-Gado </h3>
+                <p>This is a dish for the veg hating child within all of us. Clever Indonesians figured out a way to make plain vegetables completely irresistible to everyone – by drizzling with a sweet savoury Indonesian peanut sauce! </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="springrolls.jpg" alt="Spring Rolls">
+                <h3> Spring Rolls </h3>
+                <p> These tasty little rice paper rolls are indeed an herby salad mixture, with pork, shrimp, and rice noodles. Dip it in as much sauce (or should we say salad dressing) as you’d like. I love gỏi cuốn–they’re tasty and fun to eat. They’re great as a communal meal where everyone is rolling their own at the table. </p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="buncha.jpg" alt="Bun Cha">
+                <h3> Bun Cha </h3>
+                <p> Featuring grilled pork and rice vermicelli noodles, served with a dipping sauce and fresh herbs. The pork is typically grilled, and can include both patties and slices of pork belly. The dipping sauce is a key element, often a flavorful blend of fish sauce, vinegar, sugar, and chili. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="padthai.jpg" alt="Pad Thai">
+                <h3> Pad Thai </h3>
+                <p> Pad Thai is Thailand’s iconic stir-fried noodle dish — sweet, tangy, savory, and bursting with texture from peanuts, sprouts, and proteins like shrimp or chicken. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="phobo.jpg" alt="Pho Bo">
+                <h3> Pho Bo </h3>
+                <p> Pho Bo is a comforting Vietnamese noodle soup made with rice noodles, tender beef slices, and a fragrant clear broth infused with spices. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="nasigoreng.jpg" alt="Nasi Goreng">
+                <h3> Nasi Goreng </h3>
+                <p> Nasi Goreng is Indonesia’s beloved fried rice dish — smoky, savory, and often topped with a fried egg. It’s a deeply flavorful meal made from simple leftovers. </p>
+            </div>
+        </div>
+
+    </section>
+    
+      <section class="content-section">
+        <h2> Top 10 Famous Desserts in the Philippines</h2>
+        <p>Take a look at some of the most popular recipes and get inspired to cook!</p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="halohalo.jpg" alt="Halo-Halo">
+                <h3> Halo-Halo </h3>
+                <p>An iconic Filipino shaved ice dessert that's assembled in a tall glass and mixed by the diner with a long-handled spoon upon arrival. Each creamy and refreshing bite is packed with flavors and textures due to a myriad of add-ins, like crunchy toasted pinipig, soft sweetened Saba bananas, and chewy nata de coco.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="biko.jpg" alt="Biko">
+                <h3> Biko </h3>
+                <p> It's a popular dessert or snack, often enjoyed at breakfast or as a treat. It is traditionally served in a round, shallow bamboo tray lined with banana leaves known as a bilao, biko belongs to a category of sweets called kakanin, which is made up entirely of rice cakes. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="bukopandan.jpg" alt="Buko Pandan">
+                <h3> Buko Pandan </h3>
+                <p>Buko Pandan is a Filipino cold dessert made of jelly cubes, young coconut, and sweetened cream infused with pandan or screwpine flavor. Although the above three are the standard ingredients, tapioca pearls or sago, kaong, and nata de coco are also commonly added. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="sapin.jpg" alt="Sapin-Sapin">
+                <h3> Sapin-Sapin </h3>
+                <p>"Sapin-sapin" (also spelled "sapinsapin") is a traditional Filipino dessert, meaning "layered" or "having several layers". It is made from rice flour, coconut milk, sugar, water, flavoring, and coloring. It is usually sprinkled with latik or grated coconut among other toppings. </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="puto.jpg" alt="Puto">
+                <h3> Puto </h3></h3>
+                <p>Puto is a Filipino steamed rice cake, traditionally made from slightly fermented rice flour. It's a type of kakanin, a Filipino term for rice cakes, and is enjoyed as a snack, breakfast, or dessert, often served with savory dishes like dinuguan (pork blood stew). </p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="majablanca.jpg" alt="Maja Blanca">
+                <h3> Maja Blanca </h3>
+                <p> Called Coconut Pudding, this luscious dessert is easy to make and the ingredients are very common. </p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="ubehalaya.jpg" alt="Ube Halaya">
+                <h3> Ube Halaya </h3>
+                <p> Locally known in the Philippines as “Ube”. Aside from Ube Halaya, different desserts and pastries such as ice cream, tarts, and cakes makes use of this root crop. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="lecheflan.jpg" alt="Leche Flan">
+                <h3> Leche Flan </h3>
+                <p> A smooth, rich custard dessert with a layer of silky caramel—Leche Flan is a staple at Filipino celebrations and fiestas. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="kutsinta.jpg" alt="Kutsinta">
+                <h3> Kutsinta </h3>
+                <p> Chewy, sticky steamed rice cakes flavored with brown sugar and annatto, traditionally topped with grated coconut. </p>
+            </div>
+            <div class="gallery-item">
+                <img src="cassava.jpg" alt="Cassava Cake">
+                <h3> Cassava Cake </h3>
+                <p> A moist, chewy Filipino cake made from grated cassava and coconut milk, baked with a creamy custard topping. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 World on a Plate. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Pinterest</a>
+        </div>
+    </footer>
+
+</body>
+</html>
